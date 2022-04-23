@@ -1,0 +1,321 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhai 2', cursive;
+    
+   
+}
+@media(max-width:200px){
+body{
+    font-size:1rem;
+    text-align: right;
+}
+img{
+   width: 50px;
+}}
+
+.navbar,.navleft,.links{
+    display: flex;
+    /* meaning ta check kormu */
+     align-items: center;
+    font-weight: bold;
+    justify-content: space-around;
+
+} 
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    height: 10vh;
+    top: 0;
+    box-shadow: 8px 8px 10px grey;
+  background-color: rgb(242, 245, 248);
+   margin: 2px;
+   padding: 8px;
+   border-radius: 20px;
+   font-size: 25px;
+}
+.navleft img{
+width: 7vw;
+justify-content: space-evenly;
+margin: 0px 16px;
+}
+.linkbox a{
+    text-decoration: none;
+    color: black;
+    margin: 0px 12px;
+   transition: 3s;
+}
+.linkbox a:hover{
+    color: blue;
+    transition: 1s;
+}
+.linkbox a:active{
+    text-decoration: underline;
+}
+
+
+.outerdiv{
+display: flex; 
+ align-items: center;  
+  justify-content: center;  
+left: 500px;
+}
+
+.innerdivcontent{
+   
+width: 50%;
+padding: 30px;
+}
+h1.gdsc{
+font-size:4rem;
+margin-bottom: 0px;
+}
+.gd{
+    font-size: 2rem;
+    color: black;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.span{
+    color: rgb(42, 79, 246);
+    font-size: 1.5rem;
+}
+.para{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+#header{
+    margin: 5px;
+    padding: 0px;
+    margin-top: auto;
+}
+#time{
+    font-size: 1.2rem;
+}
+.btn {
+padding: 10px 50px;
+margin: 20px 20px;
+font-size: 20px;
+float: left;
+color: rgb(6, 1, 5);
+background:-moz-linear-gradient(to right,rgb(26, 241, 209)
+,rgb(134, 231, 15));
+}
+
+
+#event{
+    /* align-items: center;
+    justify-content: center; */
+ margin-left: 60px;
+    padding: 2px;
+}
+.head{
+    font-size: 5rem;
+}
+.d1{
+    padding: 0px 3px;
+margin: 3px 20px;
+font-size: 25px;
+float: left;
+color: rgb(6, 1, 5);
+background:-moz-linear-gradient(to right,rgb(111, 137, 253)
+,rgb(208, 227, 239));
+}
+.d2{
+    padding: 0px 3px;
+    margin: 3px 20px;
+font-size: 25px;
+float: left;
+color: rgb(6, 1, 5);
+background:-moz-linear-gradient(to right,rgb(111, 137, 253)
+,rgb(208, 227, 239));
+}
+.d3{
+    padding: 0px 3px;
+    margin: 3px 20px;
+font-size: 25px;
+float: left;
+color: rgb(6, 1, 5);
+background:-moz-linear-gradient(to right,rgb(111, 137, 253)
+,rgb(208, 227, 239));
+}
+.cards1,.cards2,.cards3{
+     margin-top: 250px; 
+     /* display: flex; */
+     /* display: flex; */
+    /* meaning ta check kormu */
+     align-items: center;
+    font-weight: bold;
+    justify-content: space-around;
+     /* display: flex; */
+}
+/* .cardbody{
+    /* display: inline; */
+/* }
+
+#card{
+    /* margin-top: 120px; */
+
+/* } */ 
+.card-img{
+    display: flex;
+    margin-top: 20px;
+}
+
+
+
+.teams{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    margin: 3px 20px;
+
+}
+
+.sub{
+    padding: 0px 30px;
+    margin: 3px 20px;
+}
+.tour{
+    display: block;
+    text-align: center;
+    font-size: 4rem;
+    margin: 30px;
+    text-decoration: underline;
+}
+#team{
+    background:-moz-linear-gradient(to right,rgb(186, 238, 231)
+    ,rgb(231, 126, 210)); 
+    padding: 30px;
+    margin: 200px;
+}
+.teams{
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+    margin: 15px;
+}
+
+
+
+#media{
+background-color: aliceblue;
+}
+.name{
+    display: block;
+    text-align: center;
+    font-size: 4rem;
+    margin: 30px;
+    text-decoration: underline;
+}
+.pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+.footer{
+    margin-top: 50px;
+    background:-moz-linear-gradient(to right,rgb(241, 245, 247)
+    ,rgb(211, 235, 235)); 
+   
+}
+.mail{
+  margin-left: 100px;
+    font-size: 2.5rem;
+    margin-top: 15px;
+}
+.contact{
+    margin-left: 110px;
+    font-size: 2.5rem;
+ 
+}
+
+.outer{
+    padding: 100px;
+    margin: 0px;
+    font-size: 2rem;
+}
+.left{
+    float: right;
+}
+.contact1{
+     padding: 0px;
+    margin-left:10px;
+    margin-top: 0px;
+}
+
+#lname,#mail,#fname,.query-submit{
+     width: 20%;
+        padding: 12px 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-sizing: border-box;
+        border: 2px solid rgb(48, 147, 223);
+      }
+      
+      #area{
+        width: 30%;
+        height: 200px;
+           padding: 12px 20px;
+           margin-top: 5px;
+           border: 2px solid rgb(48, 147, 223);
+           border-radius: 10px;
+           box-sizing: border-box;
+         }
+         .text{
+             font-size: 2rem;
+             padding-top: 2px;
+         }
+
+
+         .cards1{
+             margin-top: 300px;
+             margin-bottom:20px ;
+             margin-left: 135px;
+             margin-right:200px ;
+             border:4px solid rgb(8, 1, 1);
+             box-shadow: 8px 18px 10px grey;
+             border-radius: 50px;
+             background:-moz-linear-gradient(to right,rgb(116, 219, 212),
+             rgb(222, 62, 193)); 
+         }
+         .cards2{
+             margin-top: 80px;
+             margin-bottom: 40px;
+             margin-left: 135px;
+             margin-right:200px ;
+             border:4px solid rgb(24, 30, 197);
+              box-shadow: 8px 8px 15px grey;
+             border-radius: 50px;
+             background:-moz-linear-gradient(to right,rgb(147, 228, 49),rgb(79, 186, 187));
+         }
+         .cards3{
+             margin-top: 80px;
+             margin-bottom: 40px;
+             margin-left: 135px;
+             margin-right:200px ;
+             border:4px solid rgb(3, 4, 11);
+              box-shadow: 8px 8px 15px grey;
+             border-radius: 50px;
+             background:-moz-linear-gradient(to right,rgb(240, 60, 60),rgb(243, 136, 243));
+         }
+         .card-img{
+             width: 100%;
+             height: auto;
+             display: block;
+             margin-left: auto;
+             margin-right: auto;
+             width: 300px;
+         }
+         .cardbody{
+     padding: 15px;
+     text-align: center;
+         }
